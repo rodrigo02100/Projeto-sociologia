@@ -260,6 +260,33 @@ h1 {
 
 
 
+.fixed-button {
+    position: fixed;
+    bottom: 16px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color:#01c501;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 16px;
+    display: flex;            /* Flex para alinhar imagem e texto */
+    align-items: center;      /* Alinha verticalmente */
+    gap: 10px;                /* Espaço entre a imagem e o texto */
+  }
+  
+  .fixed-button img.icon {
+    width: 50px !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+  
+  
+  .fixed-button:hover {
+    background-color:#01c501
+  }
 
 
 
