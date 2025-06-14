@@ -120,7 +120,16 @@ h1 {
     background-color: #06abb7;
 }
 
-
+.textr {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    background-color: #ffc4e1;     /* amarelo claro */
+      border: 2px solid #ffc4e1;     /* mesma cor do fundo */
+      padding: 10px;
+      border-radius: 0;              /* bordas quadradas */
+  }
 
 
 
