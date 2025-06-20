@@ -222,6 +222,19 @@ h1 {
     border-radius: 0;         /* bordas quadradas (sem arredondamento) */
 }
 
+.textlcen {
+    display: inline-block;    /* Faz o elemento ocupar só o espaço do conteúdo */
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    border: 2px solid orange;
+    padding: 2px 6px;         /* Reduzido para ficar mais justo */
+    border-radius: 0;
+    text-align: center;
+}
+
+
 .textlc {
     font-size: 16px;
     color: #333;
