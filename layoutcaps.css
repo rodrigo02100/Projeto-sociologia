@@ -266,8 +266,70 @@ h1 {
     border-radius: 0;              /* bordas quadradas */
     text-align: justify;
 }
+.textag {
+    
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    background-color: orange;    /* amarelo claro */
+      border: 2px solid orange;     /* mesma cor do fundo */
+      padding: 10px;
+      border-radius: 0;              /* bordas quadradas */
+      text-align: justify;
+      display: inline-block;    /* Faz o elemento ocupar só o espaço do conteúdo */
 
+  }
+  
+  .textvcg {
+    
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    background-color: #00a9bc ;  /* amarelo claro */
+      border: 2px solid #00a9bc ;    /* mesma cor do fundo */
+      padding: 10px;
+      border-radius: 0;              /* bordas quadradas */
+      text-align: justify;
+      display: inline-block;    /* Faz o elemento ocupar só o espaço do conteúdo */
 
+  } .textvg {
+    
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    background-color: rgb(28, 149, 84);    /* amarelo claro */
+      border: 2px solid rgb(28, 149, 84);     /* mesma cor do fundo */
+      padding: 10px;
+      border-radius: 0;              /* bordas quadradas */
+      text-align: justify;
+      display: inline-block;    /* Faz o elemento ocupar só o espaço do conteúdo */
+
+  }
+  .textvcgc {
+    
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    background-color: #baeaf0 ;  /* amarelo claro */
+      border: 2px solid #baeaf0 ;     /* mesma cor do fundo */
+      padding: 10px;
+      border-radius: 0;              /* bordas quadradas */
+      text-align: justify;
+      display: inline-block;    /* Faz o elemento ocupar só o espaço do conteúdo */
+
+  } .textvgc {
+    
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    background-color: rgb(195, 240, 216);    /* amarelo claro */
+      border: 2px solid rgb(195, 240, 216);    /* mesma cor do fundo */
+      padding: 10px;
+      border-radius: 0;              /* bordas quadradas */
+      text-align: justify;
+      display: inline-block;    /* Faz o elemento ocupar só o espaço do conteúdo */
+
+  }
  /* texto da imagem */
 .text-img{ font-size: 10px;
 margin-bottom: -10px;
