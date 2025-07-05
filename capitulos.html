@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="capitulos.css">
-    <title>TCC</title>
 
     
     
@@ -20,7 +19,10 @@
                 <button class="search-button">Buscar</button>
             </div>
         </div>
-        
+        <a class="fixed-button" href="https://api.whatsapp.com/send/?phone=5511942197835&text&type=phone_number&app_absent=0&utm_campaign=errata_pnld_2026_-_pergunte_ao_livro_relacionamento_iv&utm_source=RD+Station">
+          Pergunte ao <br> Livro
+          <img src="whatsapp1.png" alt="WhatsApp" class="icon">
+        </a>
         <nav class="main-nav">
             <ul>
                 <li><a href="unidade1.html">UNIDADE 1</a></li>
@@ -37,44 +39,6 @@
     </header>
 <body>
    
-<button id="openModalBtn" class="fixed-button">Socio ia</button>
-
-  <div id="modal" class="modal">
-    <div class="modal-header">
-      <h2>SOCIO IA</h2>
-      <button id="closeModalBtn" class="btn btn-close">Fechar</button>
-    </div>
-    <div class="inner">
-      <div id="conversa" class="conversa"></div> <!-- Container de chat -->
-      <div class="input-area">
-        <div class="input-box">
-          <input type="text" id="pergunta" placeholder="Digite sua pergunta...">
-          <button id="enviar" class="btn"><span class="arrow">↑</span></button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script type="module" src="app.js"></script>
-
-
-  <script>
-    const openModalBtn = document.getElementById('openModalBtn');
-    const closeModalBtn = document.getElementById('closeModalBtn');
-    const modal = document.getElementById('modal');
-
-    // Abrir a modal
-    openModalBtn.addEventListener('click', () => {
-      modal.classList.add('open');
-    });
-
-    // Fechar a modal
-    closeModalBtn.addEventListener('click', () => {
-      modal.classList.remove('open');
-    });
-  </script>
-
-
 
 </body>
 

@@ -236,24 +236,38 @@
   
   
   
-  .fixed-button {
-      position: fixed; /* Faz com que o botão fique fixo na tela */
-      bottom: 20px;    /* Distância do botão a partir da parte inferior da tela */
-      right: 20px;     /* Distância do botão a partir da borda direita da tela */
-      padding: 10px 20px;
-      background-color: #007bff; /* Cor de fundo do botão */
-      color: white; /* Cor do texto do botão */
-      border: none; /* Remove a borda padrão */
-      border-radius: 50px; /* Arredondamento dos cantos do botão */
-      cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
-      z-index: 1000; /* Garante que o botão fique acima de outros conteúdos */
-      font-size: 16px; /* Tamanho da fonte do texto */
-    }
-    
-    /* Estilo do botão ao passar o mouse */
-    .fixed-button:hover {
-      background-color: #0056b3; /* Cor de fundo quando o mouse passa sobre o botão */
-    }
+.fixed-button {
+  text-decoration: none;
+  position: fixed;
+  bottom: 16px;
+  right: 20px;
+  padding: 4px 8px;
+  background-color:#01c501;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 12px;
+  display: flex;            /* Flex para alinhar imagem e texto */
+  align-items: center;      /* Alinha verticalmente */
+  gap: 0px;          
+  text-align: center;          /* Espaço entre a imagem e o texto */
+}
+
+.fixed-button img.icon {
+  width: 50px !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
+
+.fixed-button:hover {
+  background-color:#01c501;
+  text-decoration: underline;
+  
+}
+  
     .modal.open {
       display: block; /* Mostra o modal */
       left: 0;
