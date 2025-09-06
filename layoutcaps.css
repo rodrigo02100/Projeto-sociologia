@@ -135,6 +135,19 @@ h1 {
     }
 
 
+.textrosaclaro {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    background-color:#e2f3f6;     /* amarelo claro */
+      border: 2px solid #e2f3f6;     /* mesma cor do fundo */
+      padding: 10px;
+      border-radius: 2;              /* bordas quadradas */
+      text-align: justify;
+    }
+
+
 
 
 
@@ -226,6 +239,18 @@ h1 {
     text-align: justify;
 }
 
+
+
+.textl {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    border: 2px solid#c53894; /* borda laranja */
+    padding: 10px;            /* espaço entre o texto e a borda */
+    border-radius: 0;         /* bordas quadradas (sem arredondamento) */
+    text-align: justify;
+}
 .textlcen {
     display: inline-block;    /* Faz o elemento ocupar só o espaço do conteúdo */
     font-size: 16px;
@@ -280,6 +305,19 @@ h1 {
 
   }
   
+  .textrosag {
+    
+    color: #ffffff;
+    line-height: 1.1;
+    background-color: #c53894;   /* amarelo claro */
+      border: 2px solid  #c53894;  /* mesma cor do fundo */
+      padding: 10px;
+      border-radius: 0;              /* bordas quadradas */
+      text-align: justify;
+      display: inline-block;    /* Faz o elemento ocupar só o espaço do conteúdo */
+
+  }
+
   .textvcg {
     
     color: #ffffff;
